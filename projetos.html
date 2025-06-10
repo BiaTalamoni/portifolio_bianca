@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projetos - Bia Talamoni</title>
+  <link rel="icon" type="image/x-icon" href="img/ICONE.png" />
+  <link rel="stylesheet" href="portifólio.css" />
+</head>
+<body>
+  <header>
+    <img src="img/logo2.png" alt="Logo Bia" width="110" height="100" />
+    <p>Bianca Talamoni</p>
+  </header>
+
+  <div class="menu-escondido" onclick="apareceMenu()">☰</div>
+  <nav>
+    <div class="menu" id="menu">
+      <a href="portilio.html">Sobre mim</a>
+      <a href="projetos.html">Projetos</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <main class="project-gallery">
+      <div class="project-card">
+        <img src="img/projeto1.png" alt="Projeto 1" />
+        <div class="project-content">
+          <div class="project-title">Obscur</div>
+          <div class="project-description">Site de compras de livros sem uso de banco de dados ou JavaScript.</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="img/projeto2 .png" alt="Projeto 2" />
+        <div class="project-content">
+          <div class="project-title">Époque</div>
+          <div class="project-description">Projeto interdisciplinar com o SENAI e Português sobre as vanguardas europeias.</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="img/projeto3.png" alt="Projeto 3" />
+        <div class="project-content">
+          <div class="project-title">Aurora</div>
+          <div class="project-description">Aplicativo de apoio a mulheres em situação de vulnerabilidade ou violência.</div>
+        </div>
+      </div>
+    </main>
+    <br><br><br><p></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bia Talamoni</p>
+  </footer>
+
+  <script>
+    function apareceMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+</body>
+</html>
